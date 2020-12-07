@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1ECC3A257EB0BA00322196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1ECC39257EB0BA00322196 /* AppDelegate.swift */; };
+		BB1ECC3C257EB0BA00322196 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1ECC3B257EB0BA00322196 /* SceneDelegate.swift */; };
+		BB1ECC3E257EB0BA00322196 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1ECC3D257EB0BA00322196 /* ViewController.swift */; };
+		BB1ECC41257EB0BA00322196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1ECC3F257EB0BA00322196 /* Main.storyboard */; };
+		BB1ECC44257EB0BA00322196 /* SimpleSegue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB1ECC42257EB0BA00322196 /* SimpleSegue.xcdatamodeld */; };
+		BB1ECC46257EB0BC00322196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1ECC45257EB0BC00322196 /* Assets.xcassets */; };
+		BB1ECC49257EB0BC00322196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1ECC47257EB0BC00322196 /* LaunchScreen.storyboard */; };
+		BB1ECC51257EB88800322196 /* SecondViweController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1ECC50257EB88800322196 /* SecondViweController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB1ECC36257EB0BA00322196 /* SimpleSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1ECC39257EB0BA00322196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB1ECC3B257EB0BA00322196 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB1ECC3D257EB0BA00322196 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB1ECC40257EB0BA00322196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB1ECC43257EB0BA00322196 /* SimpleSegue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleSegue.xcdatamodel; sourceTree = "<group>"; };
+		BB1ECC45257EB0BC00322196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB1ECC48257EB0BC00322196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB1ECC4A257EB0BC00322196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1ECC50257EB88800322196 /* SecondViweController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViweController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1ECC33257EB0BA00322196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1ECC2D257EB0BA00322196 = {
+			isa = PBXGroup;
+			children = (
+				BB1ECC38257EB0BA00322196 /* SimpleSegue */,
+				BB1ECC37257EB0BA00322196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1ECC37257EB0BA00322196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1ECC36257EB0BA00322196 /* SimpleSegue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1ECC38257EB0BA00322196 /* SimpleSegue */ = {
+			isa = PBXGroup;
+			children = (
+				BB1ECC39257EB0BA00322196 /* AppDelegate.swift */,
+				BB1ECC3B257EB0BA00322196 /* SceneDelegate.swift */,
+				BB1ECC3D257EB0BA00322196 /* ViewController.swift */,
+				BB1ECC3F257EB0BA00322196 /* Main.storyboard */,
+				BB1ECC45257EB0BC00322196 /* Assets.xcassets */,
+				BB1ECC47257EB0BC00322196 /* LaunchScreen.storyboard */,
+				BB1ECC4A257EB0BC00322196 /* Info.plist */,
+				BB1ECC42257EB0BA00322196 /* SimpleSegue.xcdatamodeld */,
+				BB1ECC50257EB88800322196 /* SecondViweController.swift */,
+			);
+			path = SimpleSegue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1ECC35257EB0BA00322196 /* SimpleSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1ECC4D257EB0BC00322196 /* Build configuration list for PBXNativeTarget "SimpleSegue" */;
+			buildPhases = (
+				BB1ECC32257EB0BA00322196 /* Sources */,
+				BB1ECC33257EB0BA00322196 /* Frameworks */,
+				BB1ECC34257EB0BA00322196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSegue;
+			productName = SimpleSegue;
+			productReference = BB1ECC36257EB0BA00322196 /* SimpleSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB1ECC2E257EB0BA00322196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jim Pool Moreno";
+				TargetAttributes = {
+					BB1ECC35257EB0BA00322196 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = BB1ECC31257EB0BA00322196 /* Build configuration list for PBXProject "SimpleSegue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB1ECC2D257EB0BA00322196;
+			productRefGroup = BB1ECC37257EB0BA00322196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1ECC35257EB0BA00322196 /* SimpleSegue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1ECC34257EB0BA00322196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1ECC49257EB0BC00322196 /* LaunchScreen.storyboard in Resources */,
+				BB1ECC46257EB0BC00322196 /* Assets.xcassets in Resources */,
+				BB1ECC41257EB0BA00322196 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1ECC32257EB0BA00322196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1ECC3E257EB0BA00322196 /* ViewController.swift in Sources */,
+				BB1ECC3A257EB0BA00322196 /* AppDelegate.swift in Sources */,
+				BB1ECC51257EB88800322196 /* SecondViweController.swift in Sources */,
+				BB1ECC3C257EB0BA00322196 /* SceneDelegate.swift in Sources */,
+				BB1ECC44257EB0BA00322196 /* SimpleSegue.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB1ECC3F257EB0BA00322196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1ECC40257EB0BA00322196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB1ECC47257EB0BC00322196 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1ECC48257EB0BC00322196 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB1ECC4B257EB0BC00322196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB1ECC4C257EB0BC00322196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB1ECC4E257EB0BC00322196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleSegue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apps4All.SimpleSegue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB1ECC4F257EB0BC00322196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleSegue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apps4All.SimpleSegue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1ECC31257EB0BA00322196 /* Build configuration list for PBXProject "SimpleSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1ECC4B257EB0BC00322196 /* Debug */,
+				BB1ECC4C257EB0BC00322196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1ECC4D257EB0BC00322196 /* Build configuration list for PBXNativeTarget "SimpleSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1ECC4E257EB0BC00322196 /* Debug */,
+				BB1ECC4F257EB0BC00322196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB1ECC42257EB0BA00322196 /* SimpleSegue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB1ECC43257EB0BA00322196 /* SimpleSegue.xcdatamodel */,
+			);
+			currentVersion = BB1ECC43257EB0BA00322196 /* SimpleSegue.xcdatamodel */;
+			path = SimpleSegue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB1ECC2E257EB0BA00322196 /* Project object */;
+}
